@@ -24,19 +24,14 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a second year undergraduate studying at VNRVJIET. I'm a web developer experienced in both front-end and back-end development, with a passion for innovative solutions.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "HTML5", "CSS3", "MongoDB", "ReactJS", "NodeJS", "ExpressJS", "Bootstrap", "Material UI",
 ];
 
 /**
@@ -45,7 +40,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am Web Developer skilled in creating responsive, dynamic websites using HTML, CSS, JavaScript, and modern frameworks like React. Experienced in both front-end and back-end development, with a passion for innovative solutions.";
 
 const About = () => {
   return (
@@ -78,6 +73,7 @@ const About = () => {
         </ul>
         <hr />
         <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <button style={{display:"block",margin:"auto",cursor:"pointer",background:"lightBlue",width:"180px" , border:"none",height:"42px",marginTop:"8px"}}><a href="https://srinitha2109.github.io/My-Resume/">See My profile</a></button>
       </div>
     </section>
   );

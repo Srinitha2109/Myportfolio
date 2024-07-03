@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/project.png";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,27 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Student Management System",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Engineered a robust web application using React.js for the front-end, Node.js for the back-end, and MongoDB for the database, facilitating seamless student registration, and detailed tracking of student information.",
+    url: "https://github.com/Srinitha2109/student-manager",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Blog Application",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Developed a robust website featuring advanced Redux for efficient state management, secure userauthentication, and complete CRUD functionality.",
+    url: "https://github.com/Srinitha2109/blog-app",
   },
   {
-    title: "My Resume Site",
+    title: "Weather App",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      " Developed a WeatherApp React component using OpenWeatherMap API to dynamically fetch and displayreal-time weather data for specific cities, including temperature, humidity, wind speed, and dynamic weathericons .",
+    url: "https://github.com/Srinitha2109/Weather-app",
   },
   {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    title: "Resume using HTML and CSS",
+    description:"This was my first project done in Workshop by Aadi Foundation",
+    url: "https://github.com/Srinitha2109/My-Resume",
   },
 ];
 
